@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_items_array">
+        <item >مرتب سازی بر اساس</item>
+        <item>ثبت شده ها</item>
+        <item>ثبت نشده ها</item>
+        <item >شماره پلاک</item>
+        <item >شماره اشتراک</item>
+        <item >شماره پرونده</item>
+        <item >بلوک</item>
+    </string-array>
+</resources>

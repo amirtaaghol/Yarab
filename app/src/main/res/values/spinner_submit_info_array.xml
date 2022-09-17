@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="submit_info_array" >
+        <item>0 تا 4000 هرتز</item>
+        <item>0 تا 540 هرتز</item>
+        <item>540 تا 4000 هرتز</item>
+    </string-array>
+</resources>

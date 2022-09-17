@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/background_customer_list"
+    android:elevation="4dp"
+    android:layoutDirection="rtl"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/customer_name_static"
+        android:textColor="@color/customer_text_color" />
+
+    <TextView
+        android:id="@+id/customer_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_1"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/tv_1"
+        android:text="@string/customer_name"
+        android:textColor="@color/customer_text_color" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_1"
+        android:layout_alignStart="@id/tv_1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/customer_subscription_number"
+        android:textColor="@color/customer_text_color" />
+
+    <TextView
+        android:id="@+id/customer_subscription_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_2"
+        android:layout_alignStart="@id/tv_2"
+        android:layout_marginTop="8dp"
+        android:text="@string/test_number"
+        android:textColor="@color/customer_text_color" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customer_name_tv"
+        android:layout_alignBaseline="@id/tv_2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="32dp"
+        android:text="@string/customer_case_number"
+        android:textColor="@color/customer_text_color" />
+
+    <TextView
+        android:id="@+id/customer_case_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_3"
+        android:layout_alignBaseline="@id/customer_subscription_tv"
+        android:layout_alignStart="@id/tv_3"
+        android:layout_marginTop="8dp"
+        android:text="@string/test_number"
+        android:textColor="@color/customer_text_color" />
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customer_subscription_tv"
+        android:layout_alignStart="@id/tv_2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:text="@string/customer_previous_counter_number"
+        android:textColor="@color/customer_text_color" />
+
+    <TextView
+        android:id="@+id/customer_previous_counter_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_4"
+        android:layout_alignStart="@id/tv_4"
+        android:layout_marginTop="8dp"
+        android:text="@string/test_number"
+        android:textColor="@color/customer_text_color" />
+
+
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customer_case_tv"
+        android:layout_alignBaseline="@id/tv_4"
+        android:layout_alignStart="@id/tv_3"
+        android:layout_toEndOf="@id/customer_previous_counter_tv"
+        android:text="@string/customer_current_counter_number"
+        android:textColor="@color/customer_text_color" />
+
+    <TextView
+        android:id="@+id/customer_current_counter_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_5"
+        android:layout_alignBaseline="@id/customer_previous_counter_tv"
+        android:layout_alignStart="@id/tv_5"
+        android:layout_marginTop="8dp"
+        android:text="@string/test_number"
+        android:textColor="@color/customer_text_color" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customer_current_counter_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_customer_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/customer_details_btn" />
+
+        <Button
+            android:id="@+id/btn_submit_customer"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/customer_submit_btn" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_items_array">
+        <item>جستجو بر اساس</item>
+        <item>نام و نام خانوادگی</item>
+        <item>شماره اشتراک</item>
+        <item>شماره پرونده</item>
+        <item>بلوک</item>
+        <item>گروه</item>
+        <item>شماره پلاک</item>
+        <item>کد ملی</item>
+    </string-array>
+</resources>

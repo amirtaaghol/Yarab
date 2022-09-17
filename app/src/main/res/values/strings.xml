@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Yarab</string>
+
+
+    <!--Titles -->
+    <string name="title_home">صفحه اصلی</string>
+    <string name="title_add_customer">ثبت اطلاعات مشترکین</string>
+    <string name="title_import_export">ثبت و دریافت اطلاعات</string>
+    <string name="title_settings">تنظیمات</string>
+    <string name="title_about_us">درباره ما</string>
+
+
+    <!--Bottom Nav -->
+    <string name="home">خانه</string>
+    <string name="add_customer">ثبت مشترکین</string>
+    <string name="import_export">ورودی خروجی</string>
+    <string name="settings">تنظیمات</string>
+    <string name="about_us">درباره ما</string>
+
+    <!-- Export Import Buttons -->
+    <string name="btn_import_from_net">دریافت لیست از اینترنت</string>
+    <string name="btn_import_from_exel">دریافت لیست از فایل اکسل</string>
+    <string name="btn_export_to_net">ذخیره اطلاعات دراینترنت</string>
+    <string name="btn_export_to_exel">ذخیره اطلاعات در فایل اکسل</string>
+
+
+    <!--Homepage -->
+    <string name="customer_submitted">تعداد مشترکین ثبت شده:</string>
+    <string name="customer_not_submitted">تعداد مشترکین ثبت نشده:</string>
+    <string name="btn_submit_text">ورود به صفحه ثبت مشترکین</string>
+
+    <!--Toolbar Text -->
+    <string name="submit_customer_search_toolbar">جستجو</string>
+
+    <!--Add Customer page -->
+    <string name="customer_name_static">نام و نام خانوادگی:</string>
+    <string name="customer_name">محسن قبادیانی اصل</string>
+    <string name="customer_case_number">شماره پرونده :</string>
+
+    <string name="test_number">1234567890</string>
+    <string name="test_4_digit">9999</string>
+    <string name="customer_subscription_number">شماره اشتراک :</string>
+
+    <string name="customer_previous_counter_number">شماره کنتور قبلی :</string>
+
+    <string name="customer_current_counter_number">شماره کنتور فعلی :</string>
+
+    <string name="customer_details_btn">جزئیات</string>
+    <string name="customer_submit_btn">ثبت اطلاعات</string>
+
+    <string name="customer_city">شهر :</string>
+    <string name="customer_block">بلوک :</string>
+    <string name="customer_group">گروه :</string>
+    <string name="customer_plaque_number">شماره پلاک :</string>
+    <string name="customer_national_code">کد ملی :</string>
+    <string name="customer_phone_number">شماره همراه :</string>
+
+    <string name="customer_city_test">هشتگرد</string>
+    <string name="customer_application">کاربری :</string>
+    <string name="customer_application_test">خانگی</string>
+    <string name="customer_branch_thickness">قطر انشعاب :</string>
+    <string name="customer_branch_thickness_test">1/2 اینچ</string>
+    <string name="customer_address">آدرس :</string>
+    <string name="customer_address_test">تهران خیابان مطهری پلاک 141</string>
+    <string name="customer_status">وضعیت انشعاب :</string>
+    <string name="customer_status_test">وصل</string>
+    <string name="customer_body_number">شماره بدنه کنتور :</string>
+    <string name="customer_units_number">تعداد واحد :</string>
+    <string name="customer_bluetooth_number">بلوتوث :</string>
+    <string name="customer_details_fragment_title">جزئیات مشترک</string>
+    <string name="company_picture">company_picture</string>
+    <string name="splash_entrance_text">به نرم افزار یاراب خوش آمدید</string>
+    <string name="splash_dialog_no_internet_alert">شما به اینترنت متصل نیستید!!</string>
+    <string name="splash_dialog_message">خروج یا تلاش مجدد را انتخاب کنید</string>
+    <string name="splash_dialog_retry">تلاش مجدد</string>
+    <string name="splash_dialog_exit">خروج از برنامه</string>
+    <string name="import_alert_dialog_message">با دریافت اطلاعات از فایل اکسل تمامی داده های فعلی پاک خواهند شد آیا اطمینان دارید ؟</string>
+    <string name="import_alert_dialog_cancel">لغو</string>
+    <string name="import_alert_dialog_ok">اطمینان دارم</string>
+    <string name="submit_info_enter_current_counter">شماره کنتور فعلی را وارد کنید :</string>
+    <string name="submit_info_bluetooth_tv">میزان صدا :</string>
+    <string name="submit_info_start_rec">شروع ضبط</string>
+    <string name="submit_info_play">پخش صدای ضبظ شده</string>
+    <string name="submit_info_submit">ثبت نهایی</string>
+    <string name="setting_fragment_account">حساب کاربری</string>
+    <string name="setting_fragment_username">نام کاربری</string>
+    <string name="setting_fragment_password">پسورد</string>
+    <string name="setting_fragment_submit">ورود به حساب کاربری</string>
+    <string name="setting_fragment_bluetooth_settings">تنظیمات بلوتوث</string>
+    <string name="setting_fragment_pair">جفت سازی با دستگاه</string>
+    <string name="setting_fragment_auto">برداشت خودکار</string>
+    <string name="setting_fragment_about_us">درباره ما</string>
+    <string name="search_fragment_title">جستجوی مشترکین</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
