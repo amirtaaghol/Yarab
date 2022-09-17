@@ -65,6 +65,8 @@ public class MainActivity extends AppCompatActivity implements NavigationBarView
 
 
 
+        //kkkkkkkk
+
         // home fragment set up
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
