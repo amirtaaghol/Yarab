@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements NavigationBarView
         bottomNavigationView.setOnItemSelectedListener(this);
 
 
-
+// فثسف
 
 
         // home fragment set up
