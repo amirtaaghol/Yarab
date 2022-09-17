@@ -62,11 +62,6 @@ public class MainActivity extends AppCompatActivity implements NavigationBarView
         bottomNavigationView.setOnItemSelectedListener(this);
 
 
-// فثسف
-
-
-        //kkkkkkkk
-
         // home fragment set up
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -81,6 +76,7 @@ public class MainActivity extends AppCompatActivity implements NavigationBarView
         SQLiteDatabase db = databaseHelper.getWritableDatabase();
         if (db.isOpen()) db.close();
 
+        //mmmmm
 
     }
 
